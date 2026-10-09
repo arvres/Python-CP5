@@ -1,9 +1,15 @@
 # arquivo exclusivo para a função main, que roda o programa principal
 
+#imports
+from sistema import NOME_SISTEMA
+from utils.ocorrencias import registrar_ocorrencia, consultar_ocorrencias
+
+
+
 def main():
 
     while True:
-        print("\n===== Passagem de plantão - " + NOME_SISTEMA + " =====")
+        print(f"\n===== Passagem de plantão - {NOME_SISTEMA} =====")
         print("1 - Registrar ocorrência")
         print("2 - Consultar ocorrências")
         print("3 - Registrar anotação no diário")

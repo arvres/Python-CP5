@@ -1,9 +1,8 @@
 # CP5 Computational Thinking With Python ----- Pedro Henrique Alves - RM 569192
 
 from main import main
-import json
 
-NOME_SISTEMA = "MiniLoja (loja virtual)"
+NOME_SISTEMA = "Sistema Arvre"
 
 ARQ_JSON = "ocorrencias.json"     # guarda as ocorrências (lista de dicionários)
 
