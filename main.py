@@ -3,6 +3,8 @@
 #imports
 from sistema import NOME_SISTEMA
 from utils.ocorrencias import registrar_ocorrencia, consultar_ocorrencias
+from utils.diario import registrar_diario, consultar_diario
+
 
 
 
