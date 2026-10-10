@@ -1,6 +1,6 @@
 # arquivo para funções das ocorrencias
 
-from sistema import NOME_SISTEMA, ARQ_JSON
+from config import ARQ_JSON
 
 import json
 
@@ -101,9 +101,9 @@ def consultar_ocorrencias():
 
     for oc in lista:
         print("---------------------------------")
-        print(f"Serviço:      {oc["servico"]}")
-        print(f"Descrição:    {oc["descricao"]}")
-        print(f"Prioridade:   {oc["prioridade"]}")
-        print(f"Status:       {oc["status"]}")
-        print(f"Próxima ação: {oc["proxima_acao}"]}")
+        print(f"Serviço:      {oc['servico']}")
+        print(f"Descrição:    {oc['descricao']}")
+        print(f"Prioridade:   {oc['prioridade']}")
+        print(f"Status:       {oc['status']}")
+        print(f"Próxima ação: {oc['proxima_acao']}")
         print("----------------------------------")

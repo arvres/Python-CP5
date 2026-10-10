@@ -1,10 +1,11 @@
-# arquivo exclusivo para a função main, que roda o programa principal
+# CP5 Computational Thinking With Python ----- Pedro Henrique Alves - RM 569192
 
 #imports
-from sistema import NOME_SISTEMA
+from config import NOME_SISTEMA
+
 from utils.ocorrencias import registrar_ocorrencia, consultar_ocorrencias
 from utils.diario import registrar_diario, consultar_diario
-
+from utils.passagem import gerar_passagem
 
 
 
@@ -40,3 +41,8 @@ def main():
             break          # sai do while e o programa termina
         else:
             print("Opção inválida! Digite um número de 1 a 6.")
+
+
+
+
+if __name__ == "__main__": main()

@@ -1,6 +1,4 @@
-from sistema import ARQ_DIARIO
-
-
+from config import ARQ_DIARIO
 
 
 def registrar_diario():
